@@ -1,0 +1,43 @@
+.comments{
+	min-height:	920px;
+	padding-bottom: 50px;
+	&__wrapper{
+		width: 915px;
+
+	}
+	&__block{
+
+		padding-top: 60px;
+		display: flex;
+		align-items: top;
+			
+	}
+	&__img{
+		width: 169px;
+		height: 169px;
+	}
+	&__descr{
+		padding-left: 60px;
+	}
+	&__user{
+		font-weight: 700;
+		font-size: 18px;
+		color: #0D0D0D;
+	}
+	&__successes{
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 22px;
+		display: flex;
+		align-items: flex-end;
+		color: #646464;
+	}
+	&__text{
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 24px;
+		color: #0D0D0D;
+
+	}
+
+}

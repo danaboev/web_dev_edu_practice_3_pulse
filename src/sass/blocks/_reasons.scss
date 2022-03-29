@@ -1,0 +1,55 @@
+.reasons{
+	background-color: $second-color;
+	padding: 73px 0 65px 0;
+	// min-height: 473px;
+	
+	&__wrapper{
+		width: 900px;
+		margin-top: 65px;
+		display: flex;
+		justify-content: space-between;        justify-content: space-between;
+		vertical-align: top;     
+	
+	}
+	&__block{
+		width: 274px;
+		display: block;
+		margin: o auto;  
+	}
+	&__icon{
+		
+		margin-top: 60px;
+		display: block;
+		margin: 0 auto;
+
+	}
+	&__subtitle{
+
+		margin-top: 30px;
+		font-weight: 700;
+		font-size: 18px;
+		text-align: center;
+		color: #0D0D0D;
+	} 
+	&__descr{
+		margin-top: 20px;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 18px;
+		text-align: center;
+		color: #0D0D0D;
+		a{
+			color: $main-color;
+			text-decoration: underline;
+		}
+	}  
+	&__icon{
+		&_animated{
+			animation: heartbeat 1s ease infinite;
+			&:hover{
+				animation-play-state: paused;
+			}
+
+		}
+	}
+}
